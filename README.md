@@ -1,6 +1,6 @@
 # IPR: ACRA 2026 code and results
 
-This directory collects the code and experiment results for **Integrating Action Prefix Prediction and Alignment Across Modalities for Multimodal Reinforcement Learning**. It is a staging copy for a public repository. The original experiment directories are unchanged.
+This repository collects the code and experiment results for **Integrating Action Prefix Prediction and Alignment Across Modalities for Multimodal Reinforcement Learning**. The original experiment directories are unchanged.
 
 ## Contents
 
@@ -37,6 +37,6 @@ The separate wall-time comparison in the paper used successful compute-job recor
 
 DMC entry points are the `multi-modal_train.py` files in each method directory. They accept an environment such as `-env walker/walk` and a seed such as `-seed 10`. Webots controllers use the matching launcher in each controller directory and the included `worlds/env1.wbt`. Select the desired controller in Webots before running it; the world file does not choose one by default.
 
-The training code imports PyTorch, torchvision, Hydra, OmegaConf, NumPy, dm_control, dm_env, OpenCV, Matplotlib, termcolor, and wandb as applicable. Webots additionally requires its Python controller API. Exact tested package versions are not recorded here. Before publishing, review the provenance and license terms of code inherited from MJPR and Webots.
+The training code imports PyTorch, torchvision, Hydra, OmegaConf, NumPy, dm_control, dm_env, OpenCV, Matplotlib, termcolor, and wandb as applicable. Webots additionally requires its Python controller API. Exact tested package versions are not recorded here. Check the upstream license terms for code inherited from MJPR and Webots before reusing or relicensing those components.
 
 Checkpoints, TensorBoard event files, caches, and unrelated tasks are excluded to keep the release focused and small.
