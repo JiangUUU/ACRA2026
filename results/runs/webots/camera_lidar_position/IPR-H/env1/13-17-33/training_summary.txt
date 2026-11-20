@@ -1,0 +1,8 @@
+Training Summary
+===============
+Total Duration: 02:38:12 (hh:mm:ss)
+Total Seconds: 9492.11
+Total Episodes: 530
+Total Steps: 50999
+Agent: mjpr
+Seed: 5000
